@@ -1,0 +1,43 @@
+# Weather Dashboard
+
+A weather dashboard built with React + Vite. It fetches real-time weather data from the Open-Meteo API and displays current conditions, hourly forecasts, and a 5-day outlook.
+
+## Features
+
+- Search weather by city
+- Current temperature, humidity, wind, and precipitation
+- Hourly forecast for the next 8 hours
+- 5-day forecast with sunrise and sunset
+- Responsive glassmorphism-inspired dashboard
+
+## Getting Started
+
+1. Install dependencies:
+
+```bash
+npm install
+```
+
+2. Start the development server:
+
+```bash
+npm run dev
+```
+
+3. Open the app in your browser at the local Vite URL shown in the terminal.
+
+## API
+
+This app uses the public Open-Meteo API:
+- Geocoding API: https://geocoding-api.open-meteo.com
+- Forecast API: https://api.open-meteo.com
+
+## Build
+
+```bash
+npm run build
+```
+
+## Notes
+
+No API key is required for this public weather data source.
